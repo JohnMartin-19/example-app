@@ -1,17 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+       
+       <h1> Stay updated! </h1>
+    
+    <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+    <li>Product discovery and building matters</li>
+    <li>Measuring to ensure updates are a success</li>
+    <li>And much more!</li>
+ <br></br>
+
+  <h6>Email address</h6>
+  <form action="/home/the-backend-dev/Desktop/projects/form/newsletter-sign-up-with-success-message-main/success.html" method="POST">
+    <input type="text" id="input" placeholder="email@company.com" required></input>
+    <br></br>
+    <a href="success.html" id="btn" class="btn btn-success">Subscribe to monthly newsletter </a>
+    </form>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

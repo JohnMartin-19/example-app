@@ -1,0 +1,68 @@
+@media(max-width: 480px){
+
+}
+
+@media(min-width: 481px) and (max-width:767px){
+
+}
+
+@media(min-width:768px) and (max-width: 991px){
+
+}
+
+@media(min-width: 992px) and (max-width:1199px){
+
+}
+
+@media(min-width: 1200px) and (max-width: 1919px){
+
+}
+
+@media(min-width:1920px){
+
+}
+
+#root{
+    text-align: center;
+    text-decoration: wavy;
+}
+.card{
+    background-color: rgb(10, 10, 10);
+    padding: 40px;
+    margin: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: fit-content;
+
+}
+a{
+    color: white;
+}
+#img{
+    background-color: rgb(12, 12, 12);
+    
+}
+#card{
+  font-weight: 400;
+}
+h1{
+    font-weight: 700;
+    
+}
+#input{
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+h6{
+    font-weight: 400;
+}
+#1{
+    background-color: tomato;
+}
+button{
+   border-radius: 50% ;
+   color: white;
+   background-color: black;
+   padding: 8px;
+}
